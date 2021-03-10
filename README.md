@@ -12,7 +12,6 @@ A partir do reconhecimento de imagens usando o Template Matching do OpenCV foi p
 Para reconhecer foram usadas imagens de modelo (pasta ML_RECORT) e uma imagem de entrada (binar)
 ``` python
 cv2.matchTemplate(binar, carroGray, cv2.TM_CCOEFF)
-# A variável binar é cada frame do video convertido em binário (preto e branco)
 ```
 
 #### Construção dos modelos:
